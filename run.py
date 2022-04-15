@@ -64,5 +64,39 @@ class Die:
         print("Computer's round score is ", round_score)
         print(f"Computer's total score is  \n", {self.score})
 
+    # def play_game(self):
+    #     """
+    #     This function will manage the game and is not created yet
+    #     """
+
+
+#  The start_game variable is not defined yet 
+# start_game = Die("human_player", "computer_player")
+# start_game.play_game()
+# print(start_game.play_game())
+
+    def StartGame():
+        ''' Displays a welcome message for the game and start the game'''
+        human_score = 0
+        computer_score = 0
+        human_score < 100 and computer_score < 100:
+        print("-" * 35)
+        print("        ***     ")
+        print("Welcome to Dice Pig Game!")
+        print("        ***     ")
+        print("The current score is ")
+        print("Human_Player is : ", human_score)
+        print()
+        print("Computer is : ", computer_score)
+        print("-" * 35)
+        human_player = input("Please enter your name: \n")
+        print("-" * 35)
+        start_game = Die("human_player", "compuer_player")
+
+StartGame()
+
+
+
+
 
 
