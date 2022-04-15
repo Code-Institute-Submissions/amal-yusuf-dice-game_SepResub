@@ -17,3 +17,9 @@ class Die:
             self.human_move()
         else:
             self.computer_move()
+    
+    def dice(self):
+        """Returns the rolled dice of random int between 1 and 6"""
+        self.rollDice = random.randint(1, 6)
+        print(f"You rolled a", {self.rollDice})
+
