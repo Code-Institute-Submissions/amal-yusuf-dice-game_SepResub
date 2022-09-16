@@ -20,12 +20,31 @@ You are playing against the computer or other users, two or more players can joi
 
 You can read more about it on Wikipedia  (https://en.wikipedia.org/wiki/Pig_(dice_game))
 
-#### Here is the live version of my uncompleted project:https://dice-playing.herokuapp.com/
-https://ui.dev/amiresponsive?url=https://dice-playing.herokuapp.com/
+#### Here is the live version of my completed project:https://dice-playing.herokuapp.com/
+![image](https://user-images.githubusercontent.com/91415085/190574118-c3de973f-e10d-449a-8ff3-dcccce459131.png)
+
 
 ## Features 
-to be written tomorrow!
+### Exixting Features:
+- Welcome page to the game, on this page, you will be asked wether you would like to play against the CPU or Human.
+![image](https://user-images.githubusercontent.com/91415085/190576672-aa5179cb-37b6-4931-bee0-07d3df6266e8.png)
+- If you choose to play against CPU or Human, you will be asked to input your name 
+![image](https://user-images.githubusercontent.com/91415085/190576967-4dd676bf-af52-458f-bdfc-e4cb259e5fdb.png)
+- Also you can choose to play with multiple players as shown below, by inputting the number of players and then insert their names. 
+- Each player will play their turn untill he/she decide to hold or roll a 1, then the turn will switch to the next player.
+- If the player rolls a 1, their score will round up to zero, and will start again from zero on the next turn
+![image](https://user-images.githubusercontent.com/91415085/190580793-6597cbe4-8f40-46bc-b268-0237032f472e.png)
+- Input validation and error checking
+• At the moment the application is checking the validation when rolling or holding the dice 
+• I will add more validation to the code to make it more interactable for the user, and to make it more fun when playing the game
+![image](https://user-images.githubusercontent.com/91415085/190583804-d588a85c-169f-4eb8-b8c2-840a329807ee.png)
 
+
+### Future features to be added;
+- To show the round score and the total score of the player who is playing 
+- To show the final score of all players when the game is finished
+- To show the total score of the player, when he/she, or the cpu rolls a 1
+- Add extra validation to the code
 
 ## Testing 
 
@@ -36,10 +55,10 @@ No bugs
 No bugs remaining 
 
 
-
 ### Validator Testing
 
 I have tested the code manually through PEP8 linear and confirmed no errors.
+![image](https://user-images.githubusercontent.com/91415085/190574466-047bb87b-0962-4cd4-a32f-8b9bb3fd3f2e.png)
 
 
 ## Deployment
